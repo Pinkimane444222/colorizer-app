@@ -65,7 +65,7 @@
             const formData = new FormData();
             formData.append('image', file);
 
-            fetch('https://colorizer-app-backend.onrender.com/', {
+            fetch('https://colorizer-app-backend.onrender.com/colorize', {
                 method: 'POST',
                 body: formData
             })
